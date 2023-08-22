@@ -1,0 +1,5 @@
+names<-c("sam","ben","jerry")
+age<-c(23,22,24)
+marks<-c(69,89,78)
+v1<-quantile(age)
+v1
