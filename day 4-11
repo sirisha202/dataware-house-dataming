@@ -1,0 +1,23 @@
+v<-c(100,70,60,90,90)
+min=0
+max=1
+v1=100
+v2=60
+#min_max normalization
+for(i in v)
+  min_max=((v-v2)/(v-v1))*(max-min)
+min_max
+#zscore
+for(i in v)
+  v3=mean(v)
+v4=sd(v)
+z_score=(v-v3)/v4
+z_score
+#z_score using mean deviation
+v5=mean(abs(v-v3))
+v6=(v-v3)/v5
+v6
+#decimal
+v7=min_max/10^2
+v7
+  
