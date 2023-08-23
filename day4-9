@@ -1,0 +1,9 @@
+@relation accuracy
+@attribute height{y,n}
+@attribute weight{y,n}
+@attribute gender{male,female}
+@data
+height  weight gender
+n         y     male
+n         n     female
+y         y      male
